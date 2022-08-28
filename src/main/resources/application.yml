@@ -1,8 +1,9 @@
 spring:
-  jpa:
-    show-sql: true
   data:
     mongodb:
-      uri: "mongodb://admin:admin@localhost:27017/admin"
+      username: root
+      password: example
+      host: localhost
+      port: 27017
+      database: learn
 
-# Connection with mongoDB
